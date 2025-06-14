@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sohaib\\Documents\\C#\\StudentGradeSystem\\StudentGradeSystem.csproj": {}
+    "/home/sohaib/Documents/C#/StudentGradeSystem/StudentGradeSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sohaib\\Documents\\C#\\StudentGradeSystem\\StudentGradeSystem.csproj": {
+    "/home/sohaib/Documents/C#/StudentGradeSystem/StudentGradeSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sohaib\\Documents\\C#\\StudentGradeSystem\\StudentGradeSystem.csproj",
+        "projectUniqueName": "/home/sohaib/Documents/C#/StudentGradeSystem/StudentGradeSystem.csproj",
         "projectName": "StudentGradeSystem",
-        "projectPath": "C:\\Users\\Sohaib\\Documents\\C#\\StudentGradeSystem\\StudentGradeSystem.csproj",
-        "packagesPath": "C:\\Users\\Sohaib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sohaib\\Documents\\C#\\StudentGradeSystem\\obj\\",
+        "projectPath": "/home/sohaib/Documents/C#/StudentGradeSystem/StudentGradeSystem.csproj",
+        "packagesPath": "/home/sohaib/.nuget/packages/",
+        "outputPath": "/home/sohaib/Documents/C#/StudentGradeSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sohaib\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/sohaib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

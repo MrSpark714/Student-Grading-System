@@ -11,15 +11,18 @@ abstract class Student
     #region Public Properties
     public string Name
     {
-        get{return _name;} set{_name = value;} 
+        get { return _name; }
+        set { _name = value; }
     }
     public int Roll_Number
     {
-        get{return _rollnumber;} set{_rollnumber = value;} 
+        get { return _rollnumber; }
+        set { _rollnumber = value; }
     }
     public string Institude_Type
     {
-        get{return _institudeType;} set{_institudeType = value;} 
+        get { return _institudeType; }
+        set { _institudeType = value; }
     }
     #endregion
 
