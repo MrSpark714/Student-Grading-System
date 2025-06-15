@@ -9,4 +9,8 @@ class Services
         Console.ReadKey(true);
         return;
     }
+    static public void DrawLine()
+    {
+        Console.WriteLine("+---------------------------------------------------+");
+    }
 }

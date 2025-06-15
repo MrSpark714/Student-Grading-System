@@ -4,7 +4,8 @@ abstract class Student
 {
     #region Protected fields
     protected string _name;
-    protected int _rollnumber;
+    protected string _username;
+    protected string _password;
     protected string _institudeType;
     #endregion
 
@@ -12,17 +13,22 @@ abstract class Student
     public string Name
     {
         get { return _name; }
-        set { _name = value; }
-    }
-    public int Roll_Number
-    {
-        get { return _rollnumber; }
-        set { _rollnumber = value; }
+        protected set { _name = value; }
     }
     public string Institude_Type
     {
         get { return _institudeType; }
-        set { _institudeType = value; }
+        protected set { _institudeType = value; }
+    }
+    public string UserName
+    {
+        get { return _username; }
+        protected set { _username = value; }
+    }
+    public string Password
+    {
+        get { return _password; }
+        protected set { _password = value; }
     }
     #endregion
 

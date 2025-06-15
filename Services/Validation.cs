@@ -13,7 +13,7 @@ class Validation
             }
             else
             {
-                Console.Write("Invalid Input! Try Again: ");
+                Console.WriteLine("Invalid Input! Try Again: ");
             }
         }
     }
@@ -31,7 +31,7 @@ class Validation
             }
         }
         while (!isValid);
-
+        Console.WriteLine();
         return password;
     }
     static private bool IsValidPassword(string password)
@@ -53,11 +53,26 @@ class Validation
             else if (key.Key == ConsoleKey.Backspace && password.Length > 0)
             {
                 password = password.Substring(0, (password.Length - 1));
-                Console.Write("\b \b"); // Erase the last *
+                Console.Write("\b \b"); 
             }
         }
         while (key.Key != ConsoleKey.Enter);
-
+        
         return password;
+    }
+    static public string GetValidUserName()
+    {
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                return input;
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input! Try Again: ");
+            }
+        }
     }
 }
